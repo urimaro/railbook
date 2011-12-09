@@ -7,6 +7,6 @@ class HelloController < ApplicationController
 
   def view
     @msg = 'こんにちは、世界'
-    render 'hello/special'
+    # render 'hello/special'
   end
 end
