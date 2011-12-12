@@ -44,5 +44,8 @@ module Railbook
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # experiment of application variable
+    config.author = 'Goh Matsumoto'
   end
 end
