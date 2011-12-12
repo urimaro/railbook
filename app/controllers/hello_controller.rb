@@ -9,4 +9,8 @@ class HelloController < ApplicationController
     @msg = 'こんにちは、世界'
     # render 'hello/special'
   end
+
+  def list
+    @books = Book.all
+  end
 end
