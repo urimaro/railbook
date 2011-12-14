@@ -1,4 +1,6 @@
 Railbook::Application.routes.draw do
+  resources :authors
+
   resources :users
 
   resources :books
